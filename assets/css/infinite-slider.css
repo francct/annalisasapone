@@ -1,0 +1,33 @@
+.hero-section {
+    position: relative;
+}
+
+#slider-container {
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+#slider-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(20, 20, 20, 70%);
+}
+
+.slider {
+    position: absolute;
+}
+
+.slider, .slider-extra {
+    display: flex;
+    height: 100%;
+}
+
+.slider img {
+    height: 100%;
+}
