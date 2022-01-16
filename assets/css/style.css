@@ -18,8 +18,8 @@
 
 :root {
     color-scheme: light dark;
-    --color-primary: #ff2c2c;
-    --color-text: #1b1b1b;
+    --color-primary: #509C7F;
+    --color-text: #1B1B1B;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -61,8 +61,7 @@ a {
         content: "";
         height: 1px;
         width: 100%;
-        /* background-color: var(--color-primary); */
-        background: linear-gradient(#3fa290, #b7d2bc); /*TEMPORANEO*/
+        background-color: var(--color-primary);
         position: absolute;
         left: 0;
         bottom: -3px;

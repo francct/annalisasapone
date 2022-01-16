@@ -1,6 +1,6 @@
 #contact {
-    background: linear-gradient(#e69f64, #eb4040);
-    /* background-color: #0d232d; */
+    /* background: linear-gradient(#e69f64, #eb4040); */
+    background-color: var(--color-primary);
     padding: 20px;
     max-width: 600px;
     margin: 50px auto;
