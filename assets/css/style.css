@@ -60,17 +60,16 @@ a {
     a::after {
         content: "";
         height: 1px;
-        width: 100%;
+        width: 0;
         background-color: var(--color-primary);
         position: absolute;
-        left: 0;
+        left: 50%;
         bottom: -3px;
-        transform: scaleX(0);
-        transform-origin: center;
-        transition: transform .2s ease-out;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
     }
     a:hover::after {
-        transform: scaleX(1);
+        width: 100%;
+        left:0;
     }
 }
 
